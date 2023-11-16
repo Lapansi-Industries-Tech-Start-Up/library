@@ -1,0 +1,143 @@
+body{ 
+    background:  #ebf2ff; 
+
+   margin: 0;
+   font-family: 'Poppins', sans-serif;}
+p{font-size: 17px;}
+
+html, body {
+   margin:0;
+   padding: 0;
+}
+
+main{
+   flex:1 0 auto;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+   
+
+
+/**************slide show******************/
+.mySlides {
+    display:none;
+ }
+.mySlides{
+    /* height: 400px; */
+    margin-top: 20px;
+
+} 
+
+.slideshow-container {
+
+    width: 94%;
+    /* height: 530px; */
+    border-radius: 7px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    
+    /* Add shadow and green border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Customize the shadow color and size */
+    border: 1px solid #c8f3c8; /* Green border */
+  }
+  
+.slideshow-container h1{
+
+padding: 10px;
+}
+.slideshow-container .fa{
+   padding: 5px;
+}
+.w3-content img{
+   margin-top: 20px;
+}
+.center-menu-bar p{
+   font-size: 20px;
+   padding: 8px;
+   font-weight: bold;
+}
+
+/*school buttons*/
+/* h3{
+   padding: 20px 10px 20px ;
+   background-color:#4298f5;
+   color: white;
+   border: 1px solid #4298f5;
+  
+   text-align: center;
+   font-size: 20px;
+  margin-left: 20px;
+  width: 97%;
+  border-radius: 8px;
+} 
+a{
+   text-decoration: none;
+}
+h3:hover{
+   background:#941942;
+   color: whitesmoke;
+   border: 1px solid#593917;
+ 
+}
+h3 .fa{
+   margin: 15px;
+   font-size: 25px;
+}  */
+/* cards */
+.card {
+    border: none;
+    margin-bottom: 20px;
+    padding: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  }
+
+  .card h3 {
+    font-size: 24px;
+  }
+
+  .card i {
+    font-size: 32px;
+  }
+  .card card-body a{
+    
+        text-decoration: none;
+     
+  }
+/****************whatapp button*********************/
+.float{
+   position: fixed;
+   width: 80px;
+   height: 70px;
+   bottom: 40px;
+   right: 40px;
+   background-color: #25d366;
+   color: #fff;
+   border-radius: 50px;
+   text-align: center;
+   font-size: 40px;
+   box-shadow: 2px 2px 30px #999;
+   z-index: 100;
+}
+.my-float{
+   margin-top: 16px;
+   border-radius: 1px;
+}
+
+@media screen and (min-width: 300px) {
+    .slideshow-container {
+
+        width: 94%;
+        /* height: 530px; */
+        border-radius: 7px;
+        background-color: white;
+        margin: auto;
+        margin-top: 150px;
+        margin-bottom: 20px;
+    }
+  }
